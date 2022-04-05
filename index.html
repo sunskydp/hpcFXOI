@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			FXOI官方网站
+		</title>
+		<link rel="shortcut icon" href="https://cdn.luogu.com.cn/upload/image_hosting/569dop4n.png">
+		<link rel="stylesheet" href="demo.css" />
+	</head>
+	<body>
+		<div id="header">
+			<h1>
+				FXOI官方网站
+			</h1>
+		</div>
+		<div id="nav">
+			<aside>
+				<script>
+					var body = document.getElementsByTagName("body")[0]
+                    var aside = document.getElementsByTagName("aside")[0]
+
+                    function list() {
+                        if (aside.clientWidth <= 40) {
+                            body.className = ""
+                        } else if (aside.clientWidth > 40) {
+                            console.log("side")
+                            body.className = "minibody"
+                        }
+                    }
+				</script>
+				<button class="btn" onclick="list()">
+					三
+				</button>
+				<ul>
+					<li class="first">
+						<div class="logo">
+						    导航栏
+						</div>
+					</li>
+					<li>
+						<a href="/dsoi/index.html">
+							🌎
+							<span class="listtext">
+								官网主站
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.luogu.com.cn/team/26705">
+							🚩
+							<span class="listtext">
+								洛谷FXOI团队
+							</span>
+						</a>
+                                       </li>
+				</ul>
+			</aside>
+		</div>
+		<div id="section">
+			<body style=" text-align:center;">
+				<img src="https://cdn.luogu.com.cn/upload/image_hosting/jug0olnj.png">
+				<div class="demo2">
+					<h1>
+						FXOI 腐朽阁团队
+					</h1>
+					<p>
+						本网站访问次数：
+						<img src="https://badges.toozhao.com/badges/01FZVPC79VP8CYZT80PWGSQQ1E/green.svg"
+						/>
+					</p>
+					<footer>
+						<p>
+							Powerd by 腐朽阁@SunSkydp©2021-2022
+						</p>
+					</footer>
+				</div>
+			</body>
+		</div>
+	</body>
+
+</html>
